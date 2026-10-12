@@ -3,9 +3,6 @@
 Analyzes a strategy/business document (PDF or DOCX) and returns a
 structured, schema-validated, consulting-style JSON assessment.
 
-For now only text data is analyzed. Charts, diagrams, and scanned pages are
-detected and flagged as warnings, but not yet visually analyzed.
-
 ## Architecture
 
 Five files, each with one job:
